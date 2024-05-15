@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import json
 
-with open('KIEE-2024-summer-conference/assets/020_00_0_0_nm.json', 'r') as f:
+with open('assets/020_00_0_0_nm.json', 'r') as f:
     data = json.load(f)
 
 CONNECTIONS = [(0, 1), (0, 2), (0, 5), (0, 6), (1, 3), (2, 4), (5, 6), (5, 7), (5, 11), (6, 8), (6, 12), (7, 9), (8, 10), (11, 13), (12, 14), (13, 15), (14, 16)]
