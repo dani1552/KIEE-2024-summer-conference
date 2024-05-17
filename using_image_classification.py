@@ -14,7 +14,7 @@ from sklearn.metrics import mean_squared_error,r2_score, accuracy_score, precisi
 from sklearn.model_selection import train_test_split
 import tensorflow as tf
 from keras.models import Sequential
-from keras.layers import Conv2D, MaxPooling2D, Flatten, Dense, Dropout
+from keras.layers import Conv2D, MaxPooling2D, Flatten, Dense, Dropout,Conv3D, MaxPooling3D
 
 gpus = tf.config.experimental.list_physical_devices('GPU')
 if gpus:
@@ -25,6 +25,8 @@ if gpus:
     # 프로그램 시작시에 메모리 증가가 설정되어야만 합니다
     print(e)
 
+
+
 def get_joint_point(data):
     all_joint_img =[]
 
@@ -34,15 +36,13 @@ def get_joint_point(data):
         image_id = item['image_id']  
         keypoints = []
 
-        # 한 프레임의 x, y 좌표만 추출하여 keypoints 리스트에 추가
+        # 한 프레임의 x, y 좌표만 추출하여 keypoints 리스트에 추가 
         for i in range(0, len(keypoints_data), 3):
             x = keypoints_data[i]
             y = keypoints_data[i+1]
             keypoints.extend([x, y]) #34개
-        print
+     
         img  = draw_pose(keypoints)
-        print(sum(img[20]))
-        exit()
 
         if(len(all_joint_img)<50):       
             all_joint_img.append(img)
@@ -132,11 +132,11 @@ def get_raw_BPAG():
 
 def get_BPAG():
     # CSV 파일 경로
-    file_path = 'classification_aggression\\BPAQ_Anger_Label.csv'
+    file_path = 'classification_aggression\\BPAQ_Hostility_Label.csv'
 
     # CSV 파일 읽기
     df = pd.read_csv(file_path)
-    bpag_data =  df["BPAQ_Anger_Label"].to_list()
+    bpag_data =  df["BPAQ_Hostility_Label"].to_list()
     print(len(bpag_data))
     # # 'BPAQ'가 포함된 열 이름 찾기
     # bpaq_columns = [col for col in data.columns if 'BPAQ' in col]
@@ -176,7 +176,7 @@ if __name__ == '__main__':
         elif sub_id>=10:
             pre = "0"
         for j in range(1): #0번, 1번
-            with open('data\\skeletons\\'+str(sub_id)+'\\'+pre+str(sub_id)+'_45_'+str(j)+'_0_nm.json', 'r') as f:
+            with open('data\\skeletons\\'+str(sub_id)+'\\'+pre+str(sub_id)+'_90_'+str(j)+'_0_nm.json', 'r') as f:
                 data = json.load(f)
                 joint_img = get_joint_point(data)
                 all_joint_img.append(joint_img)
@@ -199,8 +199,7 @@ if __name__ == '__main__':
     print(input.shape)
     print(output.shape)
 
-    input = input.reshape(-1,50,100,100)
-    output.squeeze()
+    input = input.reshape(-1,50,100,100,1)
 
     print(input.shape)
     print(output.shape)
@@ -209,19 +208,15 @@ if __name__ == '__main__':
 
     
     model = Sequential()
-    model.add(Conv2D(64, (3, 3), activation='relu', input_shape=(50, 100, 100)))
-    model.add(MaxPooling2D((2, 2)))
-    # Dropout 레이어 추가 (0.25는 비활성화할 뉴런의 비율)
-    model.add(Dropout(0.25))
-    model.add(Conv2D(128, (3, 3), activation='relu'))
-    model.add(MaxPooling2D((2, 2)))
-    # Dropout 레이어 추가 (0.25는 비활성화할 뉴런의 비율)
-    model.add(Dropout(0.25))
-    model.add(Conv2D(256, (3, 3), activation='relu'))
-    model.add(MaxPooling2D((2, 2)))
+    model.add(Conv3D(filters=64, kernel_size=(8,8,8), padding='same', activation='relu', input_shape = (50,100,100,1))) #입력데이터 한줄에 125개, 총 558줄
+    model.add(MaxPooling3D(pool_size=(2, 2, 2)))
+ 
+    model.add(Conv3D(filters=128, kernel_size=(4,4,4), padding='same', activation='relu'))
+    model.add(MaxPooling3D(pool_size=(2, 2, 2)))
+    
+    model.add(Conv3D(filters=256, kernel_size=(2,2,2), padding='same', activation='relu'))
+    model.add(MaxPooling3D(pool_size=(2, 2, 2)))
     model.add(Flatten())
-    model.add(Dense(512, activation='relu'))
-    model.add(Dense(512, activation='relu'))
     model.add(Dense(512, activation='relu'))
     model.add(Dense(512, activation='relu'))
     model.add(Dense(4, activation='softmax'))
@@ -232,7 +227,7 @@ if __name__ == '__main__':
     model.compile(optimizer='adam', loss='sparse_categorical_crossentropy', metrics=['accuracy'])
 
     # 모델 훈련
-    model.fit(X_train, y_train, epochs=5000, batch_size=64)  # 에포크 수 및 배치 크기는 상황에 맞게 조정하세요.
+    model.fit(X_train, y_train, epochs=100, batch_size=16)  # 에포크 수 및 배치 크기는 상황에 맞게 조정하세요.
    
     # 모델 예측
     y_pred_prob = model.predict(X_test)

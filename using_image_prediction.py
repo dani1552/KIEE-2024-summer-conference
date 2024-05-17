@@ -1,3 +1,4 @@
+import csv
 import json
 import os
 import cv2
@@ -14,17 +15,30 @@ from sklearn.metrics import mean_squared_error,r2_score, accuracy_score, precisi
 from sklearn.model_selection import train_test_split
 import tensorflow as tf
 from keras.models import Sequential
-from keras.layers import Conv2D, MaxPooling2D, Flatten, Dense, Dropout
+from keras.layers import Conv2D, MaxPooling2D, Flatten, Dense, Dropout, Conv3D, MaxPooling3D
 
+
+# TensorFlow가 GPU를 사용하는지 확인
+print("using gpus? :", tf.test.is_built_with_cuda())
+
+gpus = tf.config.experimental.list_physical_devices('GPU')
+print("Num GPUs Available: ", len(gpus))
+
+# gpus들 출력
+for gpu in gpus:
+    print("Name:", gpu.name, "Type:", gpu.device_type)
+
+# GPU 메모리 사용량 증가 옵션 설정
 gpus = tf.config.experimental.list_physical_devices('GPU')
 if gpus:
   try:
-    for gpu in gpus:
-        tf.config.experimental.set_memory_growth(gpu, True)
+    # 사용할 GPU 0,1 선택해서 메모리 증가 옵션 설정
+    tf.config.experimental.set_memory_growth(gpus[0], True)
+    tf.config.experimental.set_memory_growth(gpus[1], True)
   except RuntimeError as e:
-    # 프로그램 시작시에 메모리 증가가 설정되어야만 합니다
     print(e)
-    
+
+
 def get_joint_point(data):
     all_joint_img =[]
 
@@ -48,6 +62,7 @@ def get_joint_point(data):
     return np.array(all_joint_img)
 
 
+
 # 이미지로 변환하는 함수 
 def draw_pose(keypoints):
     
@@ -62,8 +77,8 @@ def draw_pose(keypoints):
     joint_radius=4
     joint_color =(0, 0, 0)
     line_color =(0, 0, 0)
-    line_thickness = 2
-    image_size=(244, 244)
+    line_thickness = 1
+    image_size=(100, 100)
 
     # 좌표의 최대 및 최소값 계산
     min_x, min_y = min(x), min(y)
@@ -99,17 +114,22 @@ def draw_pose(keypoints):
 
 
     # 생성된 이미지를 파일로 저장하거나 화면에 표시할 수 있습니다.
-    cv2.imwrite('pose_image.jpg', img)
-    cv2.imshow('Pose Image', img)
-    cv2.waitKey(0)
-    cv2.destroyAllWindows()
-    
+    # cv2.imwrite('pose_image.jpg', img)
+    # cv2.imshow('Pose Image', img)
+    # cv2.waitKey(0)
+    # cv2.destroyAllWindows()
+
+
 
     # 채널 수를 1로 변환
     gray_image = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
     # 정규화 
     img_result = gray_image / 255.0
+    
+    # 모델에 입력하기 위해 데이터 타입 변환 작게
+    img_array = img_result.astype('float16')
+
 
     # 변환된 이미지 확인
     # print(image_array)
@@ -118,7 +138,7 @@ def draw_pose(keypoints):
     # print("가로 길이:", width)
     # print("세로 길이:", height)
     
-    return img_result
+    return img_array
 
 
 
@@ -169,7 +189,7 @@ if __name__ == '__main__':
     print(input.shape)
     print(output.shape)
 
-    input = input.reshape(-1,50,244,244)
+    input = input.reshape(-1,50,100,100,1)
     output.squeeze()
 
     print(input.shape)
@@ -179,33 +199,37 @@ if __name__ == '__main__':
 
     
     model = Sequential()
-    model.add(Conv2D(filters=64, kernel_size=(8,8), padding='same', activation='selu', input_shape = (50,244,244))) #입력데이터 한줄에 125개, 총 558줄
-    model.add(Conv2D(filters=64, kernel_size=(8,8), padding='same', activation='selu'))
-    model.add(MaxPooling2D(2,2))
-    model.add(Conv2D(filters=128, kernel_size=(4,4), padding='same', activation='selu'))
-    model.add(Conv2D(filters=128, kernel_size=(4,4), padding='same', activation='selu'))
-    model.add(MaxPooling2D(2,2))
-    model.add(Conv2D(filters=256, kernel_size=(2,2), padding='same', activation='selu'))
-    model.add(Conv2D(filters=256, kernel_size=(2,2), padding='same', activation='selu'))
-    model.add(MaxPooling2D(2,2))
-    model.add(Dense(1024, activation='selu'))
-    model.add(Dense(1024, activation='selu'))
-    model.add(Dense(1024, activation='selu'))
-    model.add(Dense(1024, activation='selu'))
-    model.add(Dense(1024, activation='selu'))
-    model.add(Dense(1024, activation='selu'))
-    model.add(Dense(1024, activation='selu'))
+    model.add(Conv3D(filters=64, kernel_size=(8,8,8), padding='same', activation='relu', input_shape = (50,100,100,1))) #입력데이터 한줄에 125개, 총 558줄
+    model.add(MaxPooling3D(pool_size=(2, 2, 2)))
+
+    model.add(Conv3D(filters=128, kernel_size=(4,4,4), padding='same', activation='relu'))
+    model.add(MaxPooling3D(pool_size=(2, 2, 2)))
+
+    model.add(Conv3D(filters=256, kernel_size=(2,2,2), padding='same', activation='relu'))
+    model.add(MaxPooling3D(pool_size=(2, 2, 2)))
+    model.add(Flatten())
+    model.add(Dense(512, activation='relu'))
+    model.add(Dense(512, activation='relu'))
     model.add(Dense(1, activation=None))
 
     # 모델 컴파일
     model.compile(optimizer='adam', loss='mean_squared_error', metrics=['mae'])
 
     # 모델 훈련
-    model.fit(X_train, y_train, epochs=100, batch_size=16)  # 에포크 수 및 배치 크기는 상황에 맞게 조정하세요.
+    model.fit(X_train, y_train, epochs=100, batch_size=16,verbose= 1)  # 에포크 수 및 배치 크기는 상황에 맞게 조정하세요.
 
     # 모델 예측
     y_pred= model.predict(X_test)
 
+    y_pred = y_pred.squeeze()
+
+
+    save_filepath = 'predict_result.csv'
+    f =  open(save_filepath, 'w', encoding='utf-8', newline="")
+    wr = csv.writer(f)   
+    wr.writerow(["Joint_Angle", "Predict_Angle"])
+    for i in range(len(y_test)-1):
+        wr.writerow([y_test[i], y_pred[i]])
 
     print("========= Result =========")
     print("MAE: ",mean_absolute_error(y_true=y_test, y_pred=y_pred))
