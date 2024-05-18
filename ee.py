@@ -27,42 +27,46 @@ if gpus:
 
 
 
-def get_joint_point(data):
+def get_joint_point(data, bpaq):
     all_joint_img =[]
     joint_images_1 = []
     joint_images_2 = []
     joint_images_3 = []
+    all_bpaq = [] 
+    bpaq_data_1 = []
+    bpaq_data_2 = []
+    bpaq_data_3 = []
 
-
+    # 한 사람에 대한 데이터 
     for item in data:
         keypoints_data = item['keypoints']
         image_id = item['image_id']  
         keypoints = []
         
-        # 한 프레임의 x, y 좌표만 추출하여 keypoints 리스트에 추가
+
+        # 한 프레임의 x, y 좌표만 추출하여 keypoints 리스트에 추가 
         for i in range(0, len(keypoints_data), 3):
             x = keypoints_data[i]
             y = keypoints_data[i+1]
             keypoints.extend([x, y]) #34개
+     
+     
+        # all_joint_img.append(img) # all_joint_img 리스트 업데이트
+        img  = draw_pose(keypoints)
     
-        img = draw_pose(keypoints)
-
         if len(all_joint_img) < 15:
             joint_images_1.append(img)
-            all_joint_img.append(img)  
-            print("joint_images_1: ", len(joint_images_1))
+            bpaq_data_1.append(bpaq)
+
         elif len(all_joint_img) < 30:
             joint_images_2.append(img)
-            all_joint_img.append(img) 
-            print("joint_images_2: ", len(joint_images_2))
+            bpaq_data_1.append(bpaq)
+
         elif len(all_joint_img) < 45:
             joint_images_3.append(img)
-            all_joint_img.append(img) 
-            print("joint_images_3: ", len(joint_images_3))
+            bpaq_data_3.append(bpaq)
 
-    print("joint images1,2,3 length before return: ", len(joint_images_1), len(joint_images_2), len(joint_images_3))
-    return joint_images_1, joint_images_2, joint_images_3
-
+    return (joint_images_1, bpaq_data_1), (joint_images_2, bpaq_data_2), (joint_images_3, bpaq_data_3)
     # return np.array(joint_imges_1, joint_imges_2, joint_imges_3)
 
 
@@ -117,32 +121,32 @@ def draw_pose(keypoints):
 
 
     # 생성된 이미지를 파일로 저장하거나 화면에 표시할 수 있습니다.
-    cv2.imwrite('pose_image.jpg', img)
-    cv2.imshow('Pose Image', img)
-    cv2.waitKey(0)
-    cv2.destroyAllWindows()
+    # cv2.imwrite('pose_image.jpg', img)
+    # cv2.imshow('Pose Image', img)
+    # cv2.waitKey(0)
+    # cv2.destroyAllWindows()
     # OpenCV 이미지를 ndarray로 변환
 
     gray_image = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
     img_result = gray_image / 255.0
 
     # 변환된 이미지 확인
-    print(image_array)
-    # 변환된 이미지의 가로 세로 길이 확인
-    height, width, channels = image_array.shape
-    print("가로 길이:", width)
-    print("세로 길이:", height)
+    # print(image_array)
+    # # 변환된 이미지의 가로 세로 길이 확인
+    # height, width, channels = image_array.shape
+    # print("가로 길이:", width)
+    # print("세로 길이:", height)
     
     return img_result
 
-def get_BPAG():
+def get_BPAQ():
     # CSV 파일 경로
     file_path = 'BPAQ_Hostility_Label.csv'
 
     # CSV 파일 읽기
     df = pd.read_csv(file_path)
-    bpag_data =  df["BPAQ_Hostility_Label"].to_list()
-    # print(len(bpag_data))
+    bpaq_data =  df["BPAQ_Hostility_Label"].to_list() 
+    # print(len(bpaq_data))
     # # 'BPAQ'가 포함된 열 이름 찾기
     # bpaq_columns = [col for col in data.columns if 'BPAQ' in col]
 
@@ -155,28 +159,28 @@ def get_BPAG():
     
     # 0: Low , 1: Normal / Low, 2: Normal / High, 3: High
 
-    new_bpag_data = []
+    new_bpaq_data = []
 
 
-    for index in range(len(bpag_data)):
-        if(bpag_data[index] =='Low'):
-            new_bpag_data.append(0)
-        elif(bpag_data[index] =='Normal / Low'):
-            new_bpag_data.append(1)
-        elif(bpag_data[index] =='Normal / High'):
-            new_bpag_data.append(2)
-        elif(bpag_data[index] =='High'):
-            new_bpag_data.append(3)
+    for index in range(len(bpaq_data)):
+        if(bpaq_data[index] =='Low'):
+            new_bpaq_data.append(0)
+        elif(bpaq_data[index] =='Normal / Low'):
+            new_bpaq_data.append(1)
+        elif(bpaq_data[index] =='Normal / High'):
+            new_bpaq_data.append(2)
+        elif(bpaq_data[index] =='High'):
+            new_bpaq_data.append(3)
 
-    return np.array(new_bpag_data)
+    return np.array(new_bpaq_data)
 
 
 if __name__ == '__main__':
     all_joint_img_batches = []
+    all_bpaq_data_batches = []
     all_joint_img =[]
-    bpag = get_BPAG()
+    bpaq = get_BPAQ()
     print("Converting image...")
-    
     for sub_id in range(312):
         pre = "00"
        
@@ -187,29 +191,30 @@ if __name__ == '__main__':
         for j in range(1): #0번, 1번
             with open('KIEE-2024-summer-conference\\\data\\skeletons\\'+str(sub_id)+'\\'+pre+str(sub_id)+'_90_'+str(j)+'_0_nm.json', 'r') as f:
                 data = json.load(f)
-                joint_images_1, joint_images_2, joint_images_3 = get_joint_point(data)
-                all_joint_img_batches.extend(joint_images_1)
-                all_joint_img_batches.extend(joint_images_2)
-                all_joint_img_batches.extend(joint_images_3)
+                bpaq = get_BPAQ() # bpaq 데이터를 불러오는 위치를 수정
+                joint_img = get_joint_point(data) 
+                joint_img_batch_1, joint_img_batch_2, joint_img_batch_3 = get_joint_point(data, bpaq)
+                all_joint_img_batches.append(joint_img)
+                all_joint_img_batches.extend([joint_img_batch_1, joint_img_batch_2, joint_img_batch_3]) # 이미지 배치 추가
 
-    print("Complete Converting image...")
+    print("Complete onverting image...")
     new_joint_data = []
-    new_bpag = []
+    new_bpaq = []
 
     for index, joint_img_batch in enumerate(all_joint_img_batches):
         if len(joint_img_batch) == 15:
             new_joint_data.append(np.array([joint_img_batch]))
-            new_bpag.append(np.array([bpag[index]]))
+            new_bpaq.append(np.array([bpaq[index]]))
 
     joint_data = new_joint_data
-    bpag = new_bpag
-    print("(len(joint_data): ", len(joint_data))
+    bpaq = new_bpaq
+    print(len(joint_data))
 
     input = np.array(joint_data)
-    output =  np.array(bpag)
+    output =  np.array(bpaq)
 
-    print("input.shape: ", input.shape)
-    print("output.shape: ", output.shape)
+    print(input.shape)
+    print(output.shape)
 
     input = input.reshape(-1,15,100,100,1)
 
