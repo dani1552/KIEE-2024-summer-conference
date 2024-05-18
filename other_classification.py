@@ -267,7 +267,7 @@ if __name__ == '__main__':
         elif sub_id>=10:
             pre = "0"
         for j in range(1): #0번, 1번
-            with open('data\\skeletons\\'+str(sub_id)+'\\'+pre+str(sub_id)+'_00_'+str(j)+'_0_nm.json', 'r') as f:
+            with open('data\\skeletons\\'+str(sub_id)+'\\'+pre+str(sub_id)+'_90_'+str(j)+'_0_nm.json', 'r') as f:
                 data = json.load(f)
                 joint_images_1, joint_images_2, joint_images_3,joint_images_4 = get_joint_point(data)
                 all_joint_img_batches.append(joint_images_1)
