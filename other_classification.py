@@ -339,7 +339,7 @@ if __name__ == '__main__':
     model.add(Flatten())
     model.add(Dense(512, activation='relu'))
     model.add(Dense(512, activation='relu'))
-    model.add(Dense(4, activation='softmax'))
+    model.add(Dense(5, activation='softmax'))   #=============================================분류 개수 데이터에 맞게 바꿔야함
 
     # model = ResNet152(input_shape=(50, 34, 1), include_top=False, weights=None)
 
