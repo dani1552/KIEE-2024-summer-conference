@@ -154,13 +154,17 @@ def draw_pose(keypoints):
     return img_array
 
 def get_BPAG():
-    # CSV 파일 경로
+    # CSV 파일 경로 
     file_path = 'data\\metadata_labels_v3.csv'
 
     # CSV 파일 읽기
     df = pd.read_csv(file_path)
-    bpag_data =  df["DASS_Anxiety_Label"].to_list()
 
+    #========================================== 가져올 데이터 이름으로 바꿔야함
+    bpag_data =  df["DASS_Anxiety_Label"].to_list()
+    
+    
+    #========================================== 데이터가 분류되어있는 형태 보고 수정해야함
     new_bpag_data = []
     for index in range(len(bpag_data)):
         if(bpag_data[index] =='Normal'):
@@ -172,7 +176,7 @@ def get_BPAG():
         elif(bpag_data[index] =='Extremely Severe'):
             new_bpag_data.append(3)
         elif(bpag_data[index] =='Mild'):
-            new_bpag_data.append(3) 
+            new_bpag_data.append(4) 
   
 
     return np.array(new_bpag_data)
