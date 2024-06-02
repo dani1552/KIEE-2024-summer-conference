@@ -1,0 +1,313 @@
+ID,ATTR_Weight(kg),ATTR_Height(cm),ATTR_Age,ATTR_Gender,ATTR_bmi,BFI_Openness_Label,BFI_Conscientiousness_Label,BFI_Extraversion_Label,BFI_Agreeableness_Label,BFI_Neuroticism_Label,RSE_Label,BPAQ_Hostility_Label,BPAQ_VerbalAggression_Label,BPAQ_Anger_Label,BPAQ_PhysicalAggression_Label,DASS_Depression_Label,DASS_Anxiety_Label,DASS_Stress_Label,GHQ_Label,OFER_ChronicFatigue_Label,OFER_AcuteFatigue_Label,OFER_Recovery_Label
+0,42,166,22,F,15.241689650166935,Low,Normal / High,Normal / Low,Normal / Low,Normal / High,Normal,Normal / High,Normal / High,High,Normal / High,Normal,Moderate,Normal,Typical,Moderate / Low,Moderate / Low,Moderate / Low
+1,96,182,21,M,28.982007003985025,High,Low,High,Low,High,Low,High,Normal / High,High,High,Severe,Extremely Severe,Moderate,Major Distress,High,High,Moderate / High
+2,72,175,22,M,23.510204081632654,Low,Normal / Low,Normal / Low,Low,Normal / Low,Normal,Normal / Low,Normal / High,Normal / Low,Normal / Low,Severe,Extremely Severe,Mild,Typical,Moderate / High,Moderate / Low,Moderate / High
+3,62,175,21,M,20.244897959183675,Normal / Low,High,Normal / Low,Low,High,Normal,Normal / High,Normal / High,High,Normal / Low,Normal,Moderate,Normal,Minor Distress,Moderate / High,Moderate / High,Moderate / High
+4,114,183,21,M,34.04102839738421,Normal / Low,Normal / Low,Normal / High,Normal / Low,Low,High,Low,Low,Normal / High,Normal / High,Normal,Normal,Normal,Typical,Moderate / Low,Moderate / Low,Moderate / Low
+5,50,165,20,F,18.36547291092746,Normal / Low,High,Normal / High,Normal / High,Normal / Low,Normal,Normal / High,Normal / Low,Normal / Low,Normal / Low,Normal,Severe,Mild,Minor Distress,Moderate / High,High,High
+6,93,178,21,M,29.352354500694357,Low,Normal / High,Normal / Low,Normal / Low,Normal / High,Normal,Low,Normal / Low,High,Normal / High,Moderate,Severe,Moderate,Typical,Moderate / Low,Moderate / High,High
+7,80,178,21,M,25.24933720489837,Normal / Low,Low,High,Low,Normal / Low,High,Low,Normal / Low,Normal / Low,Low,Normal,Normal,Normal,Typical,Low,Low,Moderate / High
+8,65,177,22,M,20.747550193111813,Normal / Low,High,Normal / Low,Normal / Low,Low,High,Low,Low,Normal / Low,Low,Normal,Normal,Normal,Typical,Low,Moderate / Low,Moderate / High
+9,47,157,21,F,19.067710657633167,Normal / High,Normal / High,Low,Normal / Low,High,Normal,High,High,High,High,Moderate,Severe,Moderate,Minor Distress,Moderate / High,Moderate / High,Moderate / High
+10,80,178,22,M,25.24933720489837,Normal / High,Low,Low,High,High,Low,Normal / Low,Normal / Low,Normal / High,Low,Extremely Severe,Extremely Severe,Severe,Major Distress,Moderate / High,Moderate / High,Moderate / High
+11,83,192,22,M,22.51519097222222,Normal / High,Normal / High,High,Low,Low,High,Low,High,Normal / High,Low,Normal,Mild,Normal,Typical,Moderate / Low,Moderate / Low,Moderate / Low
+12,54,176,21,M,17.43285123966942,Normal / Low,Normal / Low,Normal / Low,Low,High,Normal,High,High,Normal / High,Low,Extremely Severe,Extremely Severe,Severe,Major Distress,Moderate / Low,Moderate / High,Moderate / High
+13,50,170,35,F,17.301038062283737,High,Normal / Low,Normal / High,Normal / Low,Normal / High,Normal,Low,Low,Low,High,Normal,Moderate,Mild,Typical,Low,Moderate / High,High
+14,96,180,21,M,29.629629629629626,Low,Low,Low,Low,Normal / Low,High,Normal / High,Normal / High,High,Normal / Low,Normal,Normal,Normal,Typical,Low,Moderate / Low,Low
+15,83,178,23,M,26.19618735008206,Low,Normal / Low,Normal / Low,Low,High,Normal,Low,High,Normal / High,Normal / High,Normal,Mild,Normal,Typical,Moderate / Low,Moderate / Low,Moderate / High
+16,68,165,20,F,24.977043158861342,Normal / Low,Normal / Low,Normal / High,Normal / High,High,Low,Normal / Low,Normal / Low,Normal / Low,Normal / High,Extremely Severe,Moderate,Moderate,Major Distress,Moderate / Low,Moderate / High,Moderate / High
+17,78,181,21,M,23.808797045267237,Normal / High,Low,Normal / Low,Low,Normal / High,Normal,Normal / High,Normal / High,Normal / High,Normal / Low,Extremely Severe,Extremely Severe,Severe,Major Distress,Moderate / High,Moderate / High,Moderate / High
+18,72,163,22,F,27.09925100681245,Normal / High,Normal / Low,Low,Normal / Low,Normal / Low,Normal,Normal / High,Normal / Low,Normal / Low,Normal / High,Moderate,Severe,Normal,Minor Distress,Moderate / Low,Low,Moderate / High
+19,76,182,22,M,22.944088878154812,Normal / High,Low,Low,Normal / Low,Low,Low,High,High,High,High,Severe,Moderate,Normal,Typical,Moderate / Low,Moderate / High,Moderate / High
+20,70,178,21,F,22.093170054286073,Normal / Low,Normal / High,Normal / High,Normal / Low,Low,High,Low,Low,Normal / Low,Low,Normal,Normal,Normal,Typical,Low,Low,Low
+21,63,179,23,M,19.66230766829999,High,Normal / High,Low,Normal / Low,Normal / High,Normal,Normal / High,Normal / High,Low,High,Normal,Mild,Normal,Major Distress,High,Moderate / High,Moderate / High
+22,92,184,23,M,27.173913043478258,Low,High,Normal / Low,Low,Low,High,Normal / High,High,High,High,Normal,Moderate,Normal,Typical,Moderate / Low,Moderate / Low,Moderate / High
+23,54,171,22,F,18.467220683287167,Normal / High,Low,Normal / High,Normal / High,Normal / High,Normal,Normal / Low,Normal / Low,High,Normal / High,Normal,Normal,Normal,Typical,Low,Low,Moderate / Low
+24,52,165,21,M,19.100091827364558,High,Low,Low,Low,Low,Normal,High,Normal / High,Normal / Low,Normal / High,Normal,Normal,Normal,Typical,Low,Low,Moderate / Low
+25,53,170,22,F,18.339100346020764,Normal / Low,Normal / High,High,Low,High,High,High,High,High,High,Normal,Extremely Severe,Severe,Minor Distress,Low,Moderate / Low,Moderate / High
+26,85,170,19,M,29.411764705882355,Normal / High,Normal / High,Normal / High,Normal / High,Low,Normal,High,Normal / High,High,Normal / Low,Normal,Mild,Normal,Typical,Low,Low,Moderate / Low
+27,47,160,22,F,18.359374999999996,Normal / Low,Low,Low,Normal / Low,High,Low,Normal / High,Normal / Low,Normal / High,High,Severe,Extremely Severe,Moderate,Major Distress,Low,Moderate / Low,Moderate / Low
+28,69,178,22,M,21.777553339224845,Normal / High,High,Normal / Low,High,Normal / Low,Normal,Normal / Low,Normal / High,Normal / Low,Low,Mild,Normal,Normal,Typical,Moderate / Low,Moderate / High,Moderate / High
+29,80,195,21,M,21.038790269559502,Normal / Low,High,Normal / High,Normal / High,Normal / Low,Normal,High,Low,Normal / Low,Normal / High,Mild,Moderate,Moderate,Typical,Moderate / Low,Low,Moderate / Low
+30,58,173,22,M,19.37919743392696,High,Low,Normal / Low,Low,High,Normal,Low,Normal / High,High,Normal / High,Moderate,Extremely Severe,Moderate,Typical,Moderate / High,Moderate / High,Moderate / High
+31,62,173,23,M,20.715693808680545,High,Low,Normal / High,Low,Low,High,Normal / Low,Low,Normal / Low,Low,Mild,Moderate,Normal,Typical,Low,Low,Low
+32,65,173,22,M,21.71806608974573,High,Low,Low,Normal / Low,Normal / High,Normal,Normal / High,High,Normal / High,High,Extremely Severe,Extremely Severe,Severe,Minor Distress,High,Moderate / High,Moderate / High
+33,63,177,22,M,20.109164033323754,High,High,High,Normal / Low,Normal / Low,High,Low,Low,High,Normal / High,Normal,Normal,Normal,Typical,Moderate / High,Low,Moderate / High
+34,60,159,21,F,23.73323840037973,High,Normal / High,Low,High,High,Low,High,Normal / High,Normal / Low,Normal / High,Severe,Extremely Severe,Severe,Minor Distress,Moderate / Low,Moderate / High,Moderate / High
+35,65,176,22,M,20.983987603305785,Normal / High,Low,Normal / High,Normal / Low,Normal / Low,Normal,Normal / High,Normal / High,Normal / Low,Normal / Low,Normal,Moderate,Normal,Typical,Moderate / Low,Low,Moderate / High
+36,52,157,21,F,21.096190514828187,Normal / Low,Low,Low,Normal / Low,High,Low,High,Normal / Low,Normal / High,High,Moderate,Extremely Severe,Normal,Minor Distress,Moderate / High,Moderate / Low,Moderate / Low
+37,55,160,22,F,21.484374999999996,Normal / High,Normal / Low,High,Normal / High,Low,High,Low,Low,Normal / High,Normal / Low,Normal,Severe,Normal,Typical,Moderate / Low,Moderate / Low,Low
+38,60,172,20,F,20.281233098972418,High,High,Normal / Low,High,Normal / Low,Normal,Low,Low,Low,Normal / Low,Normal,Moderate,Normal,Typical,Moderate / Low,Moderate / Low,Low
+39,93,173,22,M,31.073540713020815,Normal / High,High,Normal / Low,High,Normal / High,Normal,Normal / Low,Low,Normal / Low,Low,Mild,Severe,Mild,Typical,Moderate / Low,Moderate / Low,Moderate / High
+40,66,170,22,M,22.837370242214536,Low,High,High,Normal / High,Low,Normal,Low,High,High,Normal / Low,Normal,Normal,Normal,Typical,Moderate / Low,Low,Moderate / Low
+41,90,175,22,M,29.387755102040817,Normal / High,Normal / High,Normal / High,Normal / Low,Normal / High,High,Normal / Low,Normal / High,Normal / Low,Normal / High,Moderate,Moderate,Normal,Typical,Moderate / High,Moderate / Low,Moderate / High
+42,51,155,22,F,21.227887617065555,Normal / Low,Normal / High,Low,Low,Low,Normal,Normal / Low,Low,Normal / Low,Low,Normal,Moderate,Normal,Minor Distress,Moderate / Low,Moderate / Low,Moderate / Low
+43,59,171,19,F,20.177148524332274,High,Low,High,High,Low,High,Low,Normal / Low,Normal / Low,Normal / Low,Normal,Normal,Normal,Minor Distress,Low,Low,Moderate / Low
+44,73,186,22,M,21.10070528384784,High,Normal / Low,Low,Low,High,Low,Normal / High,Normal / Low,High,Normal / High,Normal,Mild,Normal,Typical,Low,Moderate / High,Moderate / High
+45,51,170,23,F,17.647058823529413,Normal / Low,High,High,Normal / High,High,Normal,High,High,Normal / High,High,Severe,Extremely Severe,Severe,Major Distress,Low,Moderate / Low,Moderate / High
+46,84,182,21,M,25.359256128486894,Low,Normal / High,Normal / Low,Normal / High,Normal / Low,Normal,Normal / High,Normal / Low,Low,Low,Normal,Moderate,Normal,Typical,Moderate / High,Moderate / Low,Moderate / Low
+47,100,190,22,M,27.70083102493075,Normal / High,Normal / Low,Normal / High,Low,Low,Normal,Normal / High,Low,Low,Normal / Low,Moderate,Extremely Severe,Normal,Typical,Moderate / Low,Low,Moderate / High
+48,99,179,22,M,30.8979120501857,High,High,High,Normal / Low,Low,High,Low,Normal / High,High,Normal / High,Normal,Extremely Severe,Normal,Typical,Low,Moderate / Low,Moderate / Low
+49,71,172,24,M,23.99945916711736,High,High,High,High,Low,High,Low,Low,Low,Low,Normal,Normal,Normal,Typical,Low,Low,Low
+50,53,169,19,F,18.556773222226116,High,Normal / Low,High,Low,High,High,High,High,High,Normal / High,Extremely Severe,Extremely Severe,Extremely Severe,Major Distress,High,Moderate / High,High
+51,70,187,22,M,20.0177299894192,Normal / High,Normal / Low,Normal / Low,Normal / High,Low,Normal,Normal / Low,Normal / High,Normal / Low,High,Normal,Mild,Normal,Typical,Moderate / High,Moderate / Low,Moderate / High
+52,48,160,19,F,18.749999999999996,Low,Low,High,Low,Normal / High,High,Normal / Low,High,High,Normal / Low,Normal,Severe,Normal,Minor Distress,Moderate / Low,Low,Moderate / High
+53,56,171,21,F,19.15119181970521,Normal / High,Normal / Low,Normal / High,Low,Normal / High,Normal,High,Normal / High,Normal / High,Normal / High,Normal,Normal,Normal,Typical,Moderate / Low,Low,Moderate / High
+54,59,176,22,F,19.047004132231404,Low,Normal / High,Normal / Low,Low,High,Normal,High,Normal / High,High,Normal / High,Moderate,Extremely Severe,Moderate,Minor Distress,Moderate / High,Moderate / High,Moderate / High
+55,76,185,22,M,22.205989773557338,Normal / High,Normal / High,Normal / High,Low,Normal / Low,Normal,Normal / High,Normal / Low,Low,Normal / Low,Normal,Moderate,Normal,Typical,Moderate / Low,Moderate / Low,Moderate / Low
+56,80,183,25,M,23.888440980620498,High,Low,Normal / High,Low,High,Low,High,High,High,High,Severe,Extremely Severe,Severe,Major Distress,Moderate / Low,Moderate / High,Moderate / High
+57,84,188,23,M,23.766410140334994,Low,Normal / Low,Normal / High,High,Low,High,Normal / Low,Low,Low,Low,Normal,Normal,Normal,Typical,Low,Moderate / Low,Low
+58,78,175,19,M,25.46938775510204,Normal / Low,Normal / High,Normal / Low,Normal / High,High,Normal,Normal / High,High,High,Normal / High,Moderate,Extremely Severe,Normal,Major Distress,Low,Moderate / Low,Moderate / Low
+59,50,167,23,M,17.92821542543655,Low,Normal / Low,Low,Low,Normal / High,Normal,Low,Low,Normal / Low,Low,Mild,Normal,Normal,Typical,Low,Moderate / High,Moderate / High
+60,95,178,22,M,29.983587930816814,High,Normal / High,Normal / High,High,Normal / Low,Normal,Low,Normal / Low,Normal / Low,High,Mild,Normal,Normal,Typical,Moderate / Low,Moderate / Low,Moderate / Low
+61,65,178,23,M,20.515086478979924,High,Normal / Low,High,Normal / Low,Low,High,Low,Low,Low,Normal / Low,Normal,Mild,Normal,Typical,Low,Low,Low
+62,75,176,23,M,24.212293388429753,Low,High,Low,Normal / Low,Normal / Low,Normal,Normal / Low,Low,Normal / Low,Low,Normal,Moderate,Normal,Typical,Low,Moderate / Low,Low
+63,65,180,22,M,20.061728395061728,High,Low,Normal / Low,High,Normal / Low,Low,Normal / High,Low,Normal / Low,Low,Severe,Extremely Severe,Moderate,Minor Distress,Moderate / Low,Moderate / Low,Moderate / High
+64,59,173,19,M,19.713321527615356,High,High,High,Low,Normal / Low,High,Normal / Low,Normal / High,Low,Normal / Low,Normal,Normal,Normal,Typical,Low,Low,Moderate / Low
+65,86,183,21,M,25.680074054167036,Normal / High,Low,Normal / High,Normal / High,Low,High,Low,Normal / High,Normal / Low,Normal / High,Moderate,Normal,Normal,Typical,Moderate / Low,Moderate / Low,Moderate / High
+66,93,179,22,M,29.025311319871417,High,Normal / High,High,Normal / Low,Normal / High,Normal,Normal / High,Normal / High,Low,Normal / High,Normal,Normal,Mild,Minor Distress,Low,Moderate / Low,Moderate / Low
+67,84,190,34,M,23.26869806094183,Normal / Low,High,Normal / High,Normal / High,Low,High,Low,Low,Low,Low,Normal,Normal,Normal,Typical,Low,High,High
+68,83,185,21,M,24.251278305332356,Normal / High,Normal / High,High,Normal / High,Normal / High,Normal,Low,Normal / High,Low,Low,Normal,Moderate,Mild,Typical,Low,Moderate / Low,Moderate / Low
+69,90,190,21,M,24.930747922437675,Normal / Low,Low,Low,Low,Normal / Low,Normal,High,High,High,High,Normal,Moderate,Mild,Typical,Low,Moderate / High,Moderate / Low
+70,76,175,22,M,24.816326530612244,Normal / High,Normal / High,Normal / High,Low,Low,High,Low,High,Normal / Low,Normal / High,Mild,Normal,Normal,Typical,Moderate / Low,Low,Moderate / Low
+71,70,189,22,M,19.59631589261219,Normal / Low,Low,Low,High,Normal / Low,Normal,High,Normal / High,High,High,Severe,Extremely Severe,Mild,Typical,Moderate / High,Moderate / Low,Moderate / High
+72,47,163,22,F,17.68978885166924,Low,Normal / High,Low,Normal / Low,Normal / High,Normal,Normal / High,Low,Normal / Low,Low,Normal,Moderate,Normal,Typical,Low,Moderate / High,Moderate / High
+73,105,175,19,M,34.285714285714285,Low,Normal / High,Low,Low,Low,Normal,Normal / Low,Normal / Low,Normal / Low,Normal / High,Normal,Moderate,Mild,Typical,Moderate / Low,Moderate / Low,Moderate / High
+74,51,165,24,F,18.73278236914601,Low,High,Normal / Low,High,Normal / High,Normal,Normal / High,Normal / Low,Normal / High,Normal / High,Mild,Extremely Severe,Mild,Typical,Moderate / Low,Moderate / High,Moderate / High
+75,90,198,21,M,22.95684113865932,Normal / High,Normal / High,High,Normal / High,Normal / High,Normal,Low,Low,Low,Low,Normal,Normal,Normal,Typical,Low,Low,Moderate / High
+76,70,165,22,F,25.71166207529844,Normal / High,Normal / High,Normal / High,Normal / Low,Low,High,Low,Low,Normal / Low,Low,Normal,Normal,Normal,Typical,Low,Moderate / Low,Moderate / Low
+77,73,170,36,M,25.25951557093426,Normal / Low,Normal / Low,High,Normal / Low,Normal / High,High,High,High,High,Low,Normal,Normal,Normal,Typical,Moderate / Low,Moderate / Low,Moderate / High
+78,78,179,21,M,24.343809494085704,Normal / Low,Normal / High,Low,Normal / Low,Normal / Low,Normal,Normal / High,Normal / Low,Low,High,Mild,Extremely Severe,Normal,Minor Distress,Moderate / High,Moderate / High,Moderate / High
+79,100,178,21,M,31.561671506122963,Low,High,High,High,Normal / Low,High,Normal / High,Low,Low,Low,Normal,Normal,Normal,Typical,Moderate / Low,Moderate / Low,Moderate / Low
+80,67,170,19,F,23.18339100346021,Normal / Low,Low,High,Normal / Low,Normal / Low,Normal,Normal / Low,Normal / High,Low,Low,Normal,Normal,Normal,Minor Distress,Moderate / High,Moderate / Low,Moderate / Low
+81,93,188,22,M,26.312811226799457,Normal / High,Normal / Low,Normal / Low,Normal / Low,High,Normal,High,Normal / High,Normal / Low,Low,Severe,Severe,Mild,Major Distress,Moderate / Low,Moderate / High,Moderate / High
+82,64,177,23,M,20.428357113217785,Normal / High,Normal / High,High,Normal / High,Normal / Low,High,Normal / Low,Low,Normal / Low,Low,Normal,Mild,Normal,Typical,Low,Low,Moderate / Low
+83,66,175,19,M,21.551020408163264,Low,Normal / High,Normal / Low,Normal / High,Normal / Low,Normal,Normal / Low,Normal / Low,Normal / Low,Normal / Low,Normal,Severe,Mild,Typical,Moderate / Low,Moderate / Low,Moderate / Low
+84,80,180,22,M,24.691358024691358,Normal / Low,Normal / High,Low,Normal / High,Normal / Low,Normal,Normal / Low,Normal / Low,Low,Normal / High,Normal,Severe,Normal,Typical,Moderate / Low,Moderate / Low,Moderate / Low
+85,85,180,21,M,26.234567901234566,Normal / Low,Normal / Low,Normal / High,Normal / High,Low,Normal,Normal / Low,Low,Normal / Low,High,Normal,Normal,Normal,Major Distress,Moderate / Low,Moderate / Low,Moderate / Low
+86,57,175,22,M,18.612244897959183,High,High,Normal / High,High,Low,Normal,Normal / High,Normal / Low,Normal / Low,Low,Normal,Normal,Normal,Typical,Low,Low,Low
+87,65,179,31,M,20.286507911738084,Normal / Low,Normal / High,Normal / Low,Normal / High,Low,Normal,Normal / High,Normal / Low,Normal / Low,High,Normal,Moderate,Normal,Typical,Low,Low,Moderate / Low
+88,74,178,22,M,23.355636914530994,Low,Low,Normal / Low,Low,Normal / High,Normal,Normal / High,Normal / Low,Normal / High,Normal / Low,Severe,Severe,Moderate,Typical,Low,Moderate / Low,Moderate / High
+89,48,160,21,F,18.749999999999996,High,Normal / High,Normal / Low,Low,High,Normal,High,High,Normal / High,High,Normal,Extremely Severe,Moderate,Major Distress,Moderate / Low,Moderate / Low,Moderate / Low
+90,65,183,21,M,19.409358296754156,Normal / Low,Normal / Low,High,High,Low,Normal,Low,Low,Normal / Low,Normal / High,Normal,Mild,Normal,Typical,Moderate / Low,Low,Moderate / Low
+91,71,182,21,M,21.434609346697258,Normal / High,Low,Normal / High,Low,Low,Normal,Normal / Low,Normal / High,Normal / High,Low,Normal,Normal,Normal,Typical,Moderate / Low,Moderate / Low,Moderate / Low
+92,90,171,22,M,30.778701138811947,High,Normal / High,Normal / High,Normal / Low,High,Normal,High,Normal / High,High,Normal / High,Moderate,Extremely Severe,Moderate,Typical,High,Moderate / High,High
+93,119,193,20,M,31.947166366882332,Low,Low,High,Normal / Low,Low,Normal,Low,Normal / Low,Normal / Low,Normal / Low,Normal,Normal,Normal,Typical,Low,Low,Moderate / High
+94,66,172,23,F,22.30935640886966,Low,Normal / Low,Normal / High,High,Normal / Low,Normal,Low,Low,Low,Low,Normal,Normal,Normal,Typical,Low,Low,Moderate / Low
+95,85,191,22,M,23.299799895836188,Normal / Low,Normal / Low,High,Normal / Low,High,Normal,Normal / High,High,Normal / High,Normal / High,Moderate,Severe,Normal,Typical,Moderate / Low,Moderate / Low,Moderate / High
+96,55,165,22,F,20.202020202020204,Low,Low,Low,Normal / Low,Normal / Low,Normal,Normal / Low,Normal / High,Normal / High,High,Normal,Moderate,Normal,Typical,Moderate / Low,Moderate / Low,Moderate / Low
+97,82,190,22,M,22.714681440443215,Normal / Low,Normal / Low,Low,High,Low,Normal,Normal / Low,Low,Low,Low,Normal,Normal,Normal,Typical,Low,Low,Moderate / Low
+98,64,165,22,F,23.507805325987146,Normal / Low,Low,Low,Normal / Low,High,Low,High,Normal / Low,Low,High,Extremely Severe,Extremely Severe,Severe,Major Distress,Moderate / High,Moderate / High,Moderate / Low
+99,43,165,22,F,15.794306703397615,High,High,Normal / High,High,Low,High,Low,Low,Normal / Low,Low,Normal,Normal,Normal,Typical,Low,Low,Moderate / Low
+100,68,180,22,M,20.98765432098765,Normal / Low,Normal / Low,Normal / High,Normal / High,Normal / Low,Normal,Low,High,High,High,Normal,Severe,Normal,Typical,Moderate / High,Moderate / Low,Moderate / High
+101,78,183,23,M,23.291229956104985,Normal / Low,Normal / Low,Normal / Low,High,Normal / Low,Normal,Low,Low,Normal / Low,Low,Normal,Normal,Normal,Typical,Moderate / Low,Moderate / High,Moderate / Low
+102,71,177,23,M,22.66270867247598,Low,Normal / Low,Normal / High,Normal / Low,High,Normal,Normal / High,Normal / High,High,Low,Mild,Moderate,Moderate,Minor Distress,Moderate / Low,Moderate / Low,High
+103,55,169,22,F,19.257028815517668,Normal / Low,High,Normal / Low,High,Normal / High,Normal,Normal / High,Normal / Low,Low,Low,Mild,Extremely Severe,Moderate,Typical,Moderate / Low,Moderate / High,Low
+104,54,162,22,F,20.576131687242793,Normal / Low,Normal / Low,Normal / Low,Low,High,Normal,High,Normal / High,Normal / High,High,Mild,Severe,Normal,Minor Distress,High,Moderate / Low,Moderate / High
+105,53,164,21,F,19.705532421177875,Normal / High,Normal / Low,Low,Normal / Low,High,Low,High,High,High,Normal / High,Moderate,Extremely Severe,Moderate,Minor Distress,Moderate / High,Moderate / High,Moderate / High
+106,93,173,29,M,31.073540713020815,Normal / Low,Normal / High,Low,Normal / Low,Normal / Low,Normal,Low,Low,Low,Low,Normal,Moderate,Normal,Typical,Moderate / Low,Moderate / Low,Moderate / High
+107,73,177,23,M,23.301094832264035,Normal / High,Normal / Low,Low,Low,Low,Normal,Normal / High,Low,Low,Low,Mild,Moderate,Normal,Typical,Moderate / Low,Moderate / Low,Moderate / Low
+108,71,185,19,M,20.74506939371804,Normal / High,Normal / High,High,Normal / High,Low,Normal,Low,Low,Low,Normal / Low,Normal,Mild,Normal,Typical,Moderate / Low,Low,Moderate / High
+109,76,182,21,M,22.944088878154812,High,Normal / Low,Normal / High,High,High,Normal,Normal / Low,Normal / High,Normal / Low,Normal / Low,Mild,Extremely Severe,Normal,Typical,High,Moderate / High,Moderate / High
+110,90,170,22,F,31.14186851211073,Low,Low,Low,Low,High,Low,Normal / High,Low,High,Normal / Low,Extremely Severe,Extremely Severe,Severe,Major Distress,Moderate / Low,Moderate / High,Moderate / High
+111,59,174,22,F,19.487382745408905,Normal / High,High,High,Low,High,Normal,Normal / Low,Normal / High,Normal / High,Normal / High,Normal,Moderate,Moderate,Typical,Moderate / Low,Moderate / Low,Moderate / High
+112,49,165,21,F,17.99816345270891,Low,Normal / Low,Low,Normal / High,Normal / High,Normal,Low,Normal / Low,High,Normal / High,Normal,Moderate,Normal,Minor Distress,Moderate / High,Moderate / High,Moderate / High
+113,99,180,21,M,30.555555555555554,Low,Normal / Low,Normal / Low,Low,Normal / Low,Normal,Low,Normal / Low,Normal / Low,Normal / High,Mild,Moderate,Normal,Typical,Low,Moderate / Low,Moderate / High
+114,78,185,26,M,22.79035792549306,High,High,Normal / High,Normal / High,Low,High,Low,Normal / Low,Low,Low,Normal,Normal,Normal,Typical,Low,Low,Moderate / Low
+115,71,171,21,M,24.280975342840534,Normal / High,Normal / High,Normal / Low,High,Normal / Low,High,Normal / High,Low,Normal / High,Normal / High,Normal,Moderate,Normal,Typical,Moderate / Low,Moderate / Low,Moderate / Low
+116,78,173,22,M,26.061679307694877,Normal / High,Normal / Low,High,Normal / Low,Normal / Low,Normal,Normal / Low,Normal / High,Normal / High,Normal / Low,Normal,Normal,Normal,Typical,Moderate / Low,Moderate / Low,Moderate / Low
+117,78,184,22,M,23.03875236294896,Normal / Low,Normal / High,Normal / High,Normal / Low,Low,Normal,Normal / Low,Low,Low,Low,Normal,Normal,Normal,Typical,Moderate / Low,Moderate / Low,Moderate / Low
+118,80,185,23,M,23.37472607742878,Low,Low,Normal / Low,Normal / High,High,Low,High,High,High,High,Severe,Extremely Severe,Severe,Minor Distress,Moderate / High,Moderate / Low,Moderate / High
+119,75,180,19,M,23.148148148148145,Low,Low,Low,Normal / High,High,Low,Normal / Low,Low,Low,Low,Extremely Severe,Severe,Moderate,Major Distress,Moderate / High,Moderate / High,Moderate / High
+120,66,172,23,M,22.30935640886966,Normal / Low,Normal / High,Low,Normal / High,Normal / Low,Normal,Low,Low,Normal / Low,Low,Normal,Moderate,Normal,Typical,Low,Low,Moderate / Low
+121,77,179,21,M,24.031709372366656,High,Low,High,Low,Normal / Low,Normal,Normal / High,Normal / Low,Normal / Low,Normal / Low,Moderate,Normal,Normal,Major Distress,Moderate / Low,Moderate / Low,Moderate / High
+122,68,183,20,M,20.305174833527424,High,High,Low,High,Normal / Low,Normal,Normal / High,Low,Low,Low,Normal,Normal,Normal,Typical,Moderate / Low,Moderate / High,Moderate / High
+123,90,189,24,M,25.195263290501387,Normal / High,Low,Normal / High,Low,Normal / High,Normal,Low,Normal / Low,Normal / Low,Normal / Low,Mild,Normal,Normal,Typical,Moderate / High,Moderate / High,High
+124,85,180,22,M,26.234567901234566,Normal / High,Low,High,Low,Normal / Low,Normal,Normal / High,Normal / High,Normal / High,Normal / Low,Mild,Moderate,Normal,Typical,Low,Low,Moderate / Low
+125,65,178,21,F,20.515086478979924,Normal / Low,Normal / Low,Normal / High,Normal / Low,High,Low,Normal / Low,Normal / Low,High,Low,Mild,Mild,Mild,Typical,Moderate / High,Moderate / High,Moderate / High
+126,72,178,21,M,22.724403484408533,Low,High,Normal / Low,Low,High,Normal,High,High,High,High,Moderate,Severe,Severe,Minor Distress,Moderate / High,Moderate / High,Moderate / High
+127,90,179,23,M,28.089010954714272,Normal / High,Normal / High,Low,Normal / Low,Normal / Low,High,Normal / High,Normal / Low,Normal / High,Normal / High,Mild,Normal,Normal,Typical,Low,Low,Moderate / Low
+128,94,186,22,M,27.170771187420506,Normal / Low,Normal / High,Normal / High,Normal / Low,Normal / High,Normal,Normal / Low,High,High,High,Normal,Moderate,Mild,Typical,Moderate / Low,Low,Moderate / Low
+129,83,180,22,M,25.61728395061728,Low,Low,Normal / High,Normal / Low,High,Low,Normal / High,High,High,High,Mild,Normal,Normal,Minor Distress,Moderate / High,Moderate / High,Moderate / Low
+130,115,173,22,M,38.42427077416552,Normal / Low,Low,Low,Low,High,Low,High,High,High,Normal / Low,Extremely Severe,Extremely Severe,Severe,Major Distress,High,High,High
+131,57,155,21,F,23.725286160249738,Normal / Low,Low,Normal / Low,Normal / Low,High,Normal,High,Normal / High,Low,Normal / Low,Extremely Severe,Extremely Severe,Severe,Minor Distress,Moderate / High,Moderate / High,Moderate / High
+132,70,161,20,F,27.005130974885226,High,Normal / High,Normal / High,Normal / Low,Normal / Low,Normal,Low,Normal / High,Normal / Low,Normal / High,Moderate,Moderate,Normal,Minor Distress,Moderate / High,Moderate / High,High
+133,68,181,23,M,20.756387167668876,Normal / Low,Normal / High,Normal / Low,Normal / High,Normal / Low,Normal,Low,Low,Normal / High,Low,Normal,Normal,Normal,Typical,Moderate / High,Moderate / High,Moderate / High
+134,78,174,18,M,25.762980578676178,Low,Low,Low,Low,High,Low,Normal / High,Normal / High,Normal / Low,Normal / High,Moderate,Extremely Severe,Mild,Minor Distress,Moderate / Low,Moderate / Low,Moderate / High
+135,65,170,22,F,22.49134948096886,High,Normal / High,Normal / Low,Normal / High,High,Normal,High,High,High,High,Moderate,Extremely Severe,Moderate,Minor Distress,Moderate / High,Moderate / High,Moderate / High
+136,117,182,22,M,35.32182103610675,Normal / Low,Normal / Low,Normal / High,Normal / Low,Normal / High,Normal,Low,High,Normal / High,Normal / High,Moderate,Normal,Normal,Major Distress,Moderate / High,Moderate / High,Moderate / High
+137,54,164,22,F,20.077334919690664,Normal / High,Low,Low,Normal / High,Low,Low,Low,Low,Normal / Low,Low,Severe,Severe,Moderate,Typical,Low,Moderate / High,Moderate / High
+138,86,178,21,M,27.143037495265748,Normal / High,Normal / High,High,Normal / High,Normal / Low,Normal,Normal / High,High,Normal / High,Low,Mild,Extremely Severe,Normal,Typical,Moderate / Low,Moderate / Low,Moderate / Low
+139,85,180,23,F,26.234567901234566,Low,Low,Low,Low,High,Low,High,Normal / High,High,High,Severe,Extremely Severe,Moderate,Major Distress,Moderate / High,Moderate / High,High
+140,51,167,21,F,18.286779733945284,Normal / High,Low,Normal / High,Low,Normal / High,Low,Normal / High,Normal / High,Normal / High,Normal / High,Severe,Extremely Severe,Mild,Minor Distress,Low,Moderate / Low,Moderate / Low
+141,85,175,22,M,27.755102040816325,Normal / Low,Normal / High,Normal / High,Normal / Low,Low,Normal,Low,Normal / Low,Normal / Low,Normal / Low,Normal,Normal,Normal,Typical,Moderate / Low,Moderate / Low,Moderate / Low
+142,55,165,22,F,20.202020202020204,Low,High,Normal / Low,High,Low,Normal,Low,Low,Low,Low,Normal,Normal,Normal,Typical,Moderate / High,Low,Moderate / Low
+143,89,181,22,M,27.16644791062544,Normal / Low,Normal / Low,Normal / Low,Low,Normal / Low,Normal,Normal / High,High,High,Normal / High,Normal,Moderate,Normal,Typical,Moderate / Low,Low,Moderate / High
+144,57,164,21,F,21.192742415229034,Low,Normal / High,Low,Normal / High,Normal / High,Normal,Low,Low,Low,Low,Normal,Normal,Normal,Typical,Moderate / High,Moderate / High,Moderate / High
+145,54,172,21,F,18.25310978907518,High,High,Normal / Low,High,Low,Normal,Low,Low,Normal / Low,Low,Normal,Normal,Normal,Typical,Low,Low,Moderate / High
+146,53,163,22,F,19.94805976890361,Low,Low,High,Low,Normal / High,Normal,Normal / Low,High,High,High,Severe,Extremely Severe,Severe,Minor Distress,Low,Moderate / Low,Moderate / High
+147,78,180,22,M,24.074074074074073,High,Low,High,Normal / Low,High,Normal,High,Normal / Low,High,Normal / Low,Normal,Moderate,Normal,Typical,Moderate / High,Moderate / Low,Moderate / High
+148,74,188,21,M,20.937075599818925,Normal / Low,Normal / Low,Normal / Low,Normal / High,Normal / High,Normal,Normal / Low,Normal / High,Normal / Low,Normal / Low,Moderate,Extremely Severe,Mild,Typical,Moderate / High,Moderate / High,Moderate / Low
+149,73,173,22,M,24.3910588392529,Low,Normal / Low,Normal / High,High,Low,High,Low,Normal / High,Low,Normal / High,Normal,Normal,Normal,Typical,Low,Low,Moderate / Low
+150,87,175,22,M,28.408163265306122,High,Normal / High,High,High,Low,High,Normal / Low,High,High,Normal / High,Normal,Normal,Normal,Minor Distress,Moderate / Low,Moderate / Low,Moderate / High
+151,70,170,22,M,24.221453287197235,High,High,High,High,Low,Normal,Normal / High,Normal / High,Low,Normal / High,Normal,Moderate,Normal,Major Distress,Moderate / High,Moderate / High,Moderate / Low
+152,90,173,21,F,30.071168431955627,High,Low,Low,Normal / Low,Normal / Low,Low,High,Low,Low,Low,Extremely Severe,Severe,Mild,Minor Distress,Moderate / High,Moderate / High,Moderate / High
+153,77,180,21,M,23.76543209876543,Low,Normal / High,Normal / High,Low,Normal / High,Normal,Normal / Low,High,Normal / Low,Normal / Low,Normal,Mild,Normal,Typical,Moderate / Low,Moderate / Low,Moderate / Low
+154,70,185,23,M,20.45288531775018,Normal / High,Normal / High,High,Normal / Low,Normal / Low,Normal,Low,Normal / High,Normal / Low,Normal / High,Moderate,Mild,Normal,Major Distress,Moderate / High,Moderate / High,Moderate / High
+155,75,178,20,M,23.671253629592222,Normal / Low,Low,Normal / High,High,Low,Normal,Low,Normal / Low,Low,Normal / Low,Normal,Normal,Normal,Typical,Moderate / Low,Low,Moderate / High
+156,80,188,22,M,22.634676324128566,Normal / Low,Normal / Low,Normal / High,Normal / High,Low,High,Low,Low,Low,Low,Normal,Normal,Normal,Typical,Low,Low,Low
+157,67,174,22,F,22.12973972783723,High,High,Normal / High,High,Low,Normal,Low,Low,Low,Low,Normal,Mild,Normal,Typical,Low,Low,Moderate / Low
+158,68,180,19,M,20.98765432098765,High,Normal / Low,Normal / Low,High,Low,Normal,Normal / Low,Normal / Low,Normal / Low,Low,Mild,Normal,Normal,Typical,Moderate / High,Moderate / High,Moderate / High
+159,54,164,22,F,20.077334919690664,Normal / Low,High,Normal / Low,Normal / Low,Normal / High,Normal,Normal / High,Normal / Low,Normal / Low,Normal / High,Mild,Extremely Severe,Moderate,Minor Distress,Moderate / High,Moderate / High,Moderate / High
+160,74,180,22,M,22.839506172839506,Normal / High,Normal / High,Normal / High,Low,Low,High,Normal / High,High,High,Normal / High,Normal,Moderate,Normal,Typical,Low,Low,Moderate / Low
+161,75,182,22,F,22.6421929718633,Normal / Low,Low,Normal / High,Low,High,Normal,Normal / High,Low,Normal / High,Low,Extremely Severe,Extremely Severe,Moderate,Minor Distress,Moderate / Low,Moderate / Low,Moderate / High
+162,64,158,21,M,25.63691716071142,High,High,High,High,Normal / Low,Normal,Low,Low,Low,Normal / Low,Normal,Normal,Normal,Typical,Low,Low,Low
+163,86,170,23,M,29.75778546712803,Normal / High,High,High,High,Low,High,Low,Low,Low,Low,Normal,Moderate,Normal,Typical,Low,Low,Low
+164,60,170,26,F,20.761245674740486,Normal / High,Low,Normal / Low,High,Normal / High,Normal,Normal / High,Low,Normal / Low,Normal / Low,Normal,Moderate,Normal,Typical,High,Moderate / High,High
+165,83,171,23,M,28.384802161348794,Low,Normal / High,Normal / High,Low,Normal / Low,Normal,High,High,High,Normal / High,Extremely Severe,Extremely Severe,Moderate,Minor Distress,Moderate / High,Moderate / Low,Moderate / High
+166,77,178,22,M,24.302487059714682,High,High,High,High,Low,High,Low,Normal / Low,Normal / Low,Normal / High,Normal,Moderate,Normal,Typical,Low,Low,Low
+167,53,166,21,F,19.233560749020178,High,Normal / High,High,High,Normal / High,Normal,Normal / High,High,High,Normal / Low,Normal,Severe,Severe,Typical,Moderate / High,Moderate / High,High
+168,53,170,22,F,18.339100346020764,High,Normal / Low,Normal / High,High,Normal / Low,High,Normal / High,Normal / Low,Normal / Low,Low,Normal,Severe,Normal,Typical,Moderate / Low,Low,Moderate / Low
+169,50,175,22,M,16.3265306122449,Normal / High,High,Low,Normal / Low,Low,High,Low,Low,Low,Low,Normal,Moderate,Normal,Typical,Low,Low,Moderate / Low
+170,75,175,23,M,24.489795918367346,Low,Normal / High,Normal / Low,Normal / High,Normal / Low,Normal,Normal / High,Normal / High,Normal / High,Normal / High,Normal,Severe,Normal,Typical,Moderate / Low,Low,Moderate / Low
+171,74,183,21,M,22.096807907073963,High,Low,High,Low,Normal / High,Normal,High,High,High,High,Moderate,Extremely Severe,Severe,Typical,Moderate / High,Low,Moderate / Low
+172,106,188,22,M,29.990946129470352,High,High,Normal / Low,Normal / High,Low,High,Normal / Low,High,Low,High,Normal,Mild,Normal,Typical,Moderate / Low,Low,Moderate / Low
+173,63,173,22,F,21.04981790236894,Normal / Low,Normal / Low,Normal / Low,Normal / Low,Normal / High,Normal,Normal / High,High,High,High,Mild,Normal,Normal,Minor Distress,Moderate / High,Moderate / High,Moderate / High
+174,72,180,21,M,22.22222222222222,Normal / High,Normal / High,High,Normal / High,Low,High,Low,Normal / High,Normal / High,High,Normal,Normal,Normal,Typical,Moderate / Low,Moderate / Low,Moderate / Low
+175,77,178,21,M,24.302487059714682,Normal / Low,High,Normal / High,High,Low,Normal,Normal / Low,Normal / Low,Normal / Low,Normal / High,Normal,Normal,Normal,Typical,Low,Low,Moderate / High
+176,64,180,21,M,19.753086419753085,High,High,High,Normal / High,Low,High,Normal / High,Normal / Low,Low,Normal / Low,Normal,Mild,Normal,Typical,Moderate / Low,Low,Moderate / High
+177,75,170,22,M,25.95155709342561,High,High,High,High,Low,High,Low,Normal / Low,Normal / Low,Normal / Low,Normal,Normal,Normal,Typical,Low,Low,Low
+178,76,175,22,M,24.816326530612244,Low,Normal / Low,Low,High,Normal / Low,Low,Low,Normal / High,Low,Normal / High,Moderate,Moderate,Normal,Minor Distress,Moderate / High,Moderate / Low,Moderate / High
+179,76,171,23,M,25.990903183885642,Low,High,High,Normal / High,Low,High,Normal / High,Normal / High,Normal / High,Normal / High,Moderate,Normal,Mild,Typical,Moderate / Low,Moderate / High,High
+180,49,161,23,F,18.90359168241966,High,Normal / High,Normal / Low,High,Normal / High,Normal,Normal / Low,Normal / High,Normal / Low,Normal / High,Normal,Moderate,Mild,Minor Distress,Moderate / High,Moderate / High,Moderate / High
+181,73,167,23,M,26.175194521137367,Normal / High,Low,High,Low,Low,High,Normal / High,Normal / High,High,Normal / Low,Normal,Normal,Normal,Typical,Moderate / Low,Low,Low
+182,65,170,21,M,22.49134948096886,Low,High,High,High,Normal / Low,Normal,Low,Normal / Low,Normal / Low,Normal / High,Normal,Mild,Normal,Typical,Moderate / Low,Moderate / Low,Moderate / High
+183,42,157,22,F,17.03923080043815,Normal / Low,High,Normal / Low,Normal / Low,High,High,Normal / Low,Normal / Low,High,Low,Normal,Mild,Severe,Typical,Moderate / Low,Moderate / High,Moderate / High
+184,52,170,22,F,17.99307958477509,Normal / Low,Low,Normal / High,Normal / Low,Normal / Low,Normal,Low,Low,Low,Low,Normal,Normal,Normal,Typical,Moderate / Low,Moderate / Low,Moderate / Low
+185,69,172,22,F,23.323418063818284,Normal / High,Normal / Low,High,Low,Normal / Low,High,Normal / Low,Normal / Low,High,Normal / High,Moderate,Extremely Severe,Moderate,Typical,Moderate / Low,Moderate / Low,Moderate / Low
+186,49,163,22,F,18.442545824080696,Normal / Low,Normal / High,Normal / Low,Normal / High,Normal / Low,Low,Normal / High,Normal / High,Normal / Low,High,Moderate,Moderate,Normal,Major Distress,Moderate / Low,Moderate / High,Moderate / Low
+187,80,180,21,M,24.691358024691358,Normal / High,Normal / Low,Normal / High,Low,Normal / Low,High,Low,Normal / Low,Normal / Low,Low,Normal,Moderate,Normal,Typical,Low,Low,Moderate / Low
+188,30,150,22,M,13.333333333333334,Normal / High,Normal / Low,Normal / Low,Normal / High,Normal / High,Low,Normal / Low,Low,Low,Low,Normal,Normal,Normal,Minor Distress,Moderate / High,Moderate / High,Moderate / High
+189,56,167,22,F,20.07960127648894,High,High,High,Normal / Low,Normal / High,High,Low,Normal / High,High,Low,Normal,Moderate,Normal,Typical,Moderate / High,Low,Moderate / Low
+190,105,183,26,M,31.353578787064404,Low,Low,Low,Low,High,Normal,Normal / High,Normal / High,Normal / Low,Normal / High,Moderate,Severe,Mild,Minor Distress,Moderate / High,Moderate / High,Moderate / Low
+191,50,167,22,F,17.92821542543655,High,High,Normal / Low,Normal / Low,Low,Normal,Low,Normal / High,Normal / Low,Low,Normal,Moderate,Normal,Typical,Moderate / Low,Moderate / Low,Moderate / High
+192,98,182,22,M,29.585798816568044,Normal / Low,Normal / High,Normal / High,Low,Low,Normal,Normal / Low,High,Normal / Low,High,Normal,Moderate,Normal,Typical,Low,Low,Moderate / Low
+193,74,182,22,M,22.34029706557179,Low,Normal / Low,Low,Normal / Low,High,Normal,High,Normal / Low,Normal / High,Normal / Low,Moderate,Normal,Normal,Typical,Moderate / High,Moderate / High,Moderate / High
+194,70,178,23,M,22.093170054286073,Low,Normal / High,Normal / Low,Normal / Low,Normal / Low,High,High,Low,Normal / High,Normal / High,Normal,Normal,Normal,Typical,Moderate / Low,Moderate / High,Moderate / Low
+195,66,175,26,M,21.551020408163264,High,Normal / Low,Low,Low,Normal / Low,High,High,Normal / High,High,Low,Moderate,Mild,Normal,Typical,Moderate / High,Low,Moderate / Low
+196,46,155,22,F,19.14672216441207,High,Normal / High,High,Low,Normal / Low,High,Normal / High,High,High,High,Normal,Moderate,Normal,Typical,Low,Low,Moderate / Low
+197,83,180,21,M,25.61728395061728,Normal / Low,Normal / High,Normal / High,High,Low,High,Low,Low,Low,Low,Normal,Normal,Normal,Typical,Low,Low,Moderate / Low
+198,48,166,22,F,17.419073885905068,Normal / Low,Normal / High,High,High,Normal / High,Low,Normal / Low,Normal / Low,Normal / Low,Low,Severe,Normal,Moderate,Minor Distress,Low,Moderate / High,Moderate / High
+199,54,163,21,F,20.32443825510934,Normal / High,High,Normal / Low,Normal / Low,High,Normal,High,High,High,High,Normal,Moderate,Normal,Minor Distress,Moderate / High,Moderate / High,Moderate / High
+200,94,193,22,M,25.235576794007894,Normal / Low,Normal / Low,High,Low,Normal / Low,Normal,High,High,High,High,Extremely Severe,Extremely Severe,Severe,Major Distress,Moderate / Low,Moderate / High,Moderate / High
+201,61,178,19,M,19.252619618735007,Normal / High,Low,Low,Low,High,Normal,Normal / High,Normal / High,Normal / High,High,Moderate,Extremely Severe,Mild,Minor Distress,Moderate / Low,Moderate / High,Moderate / High
+202,100,190,24,M,27.70083102493075,Low,High,Normal / Low,Low,Normal / Low,Normal,Normal / Low,Normal / High,Low,Normal / High,Normal,Moderate,Normal,Typical,Moderate / Low,Moderate / High,Moderate / High
+203,80,186,22,M,23.12406058503873,Normal / Low,Normal / High,Normal / Low,High,Low,Normal,Low,Low,Normal / Low,Low,Normal,Normal,Normal,Typical,Moderate / Low,Low,Moderate / Low
+204,76,170,22,F,26.29757785467128,Low,High,Low,High,High,Normal,Normal / High,Normal / High,High,High,Moderate,Extremely Severe,Severe,Major Distress,Moderate / High,High,Moderate / High
+205,105,189,22,M,29.394473838918284,Normal / Low,Low,Normal / Low,Low,Normal / High,Low,Normal / High,High,High,Normal / Low,Mild,Normal,Normal,Minor Distress,Moderate / High,Moderate / High,Moderate / High
+206,78,180,21,M,24.074074074074073,Normal / Low,Normal / Low,Low,Low,Normal / High,Normal,Normal / Low,Normal / Low,Low,Low,Severe,Moderate,Normal,Typical,Moderate / Low,Moderate / High,High
+207,70,179,20,M,21.847008520333322,Low,Normal / Low,Normal / Low,Normal / High,Normal / High,Low,Normal / Low,Normal / High,Normal / Low,Low,Extremely Severe,Extremely Severe,Severe,Typical,Moderate / High,Moderate / High,Moderate / High
+208,60,162,22,F,22.86236854138088,High,Normal / Low,Normal / Low,Normal / Low,High,Normal,High,Normal / High,High,High,Moderate,Severe,Severe,Typical,Moderate / Low,High,Moderate / High
+209,58,172,22,M,19.60519199567334,Normal / High,Low,Low,Low,Normal / Low,Normal,Normal / High,High,High,Normal / High,Moderate,Severe,Moderate,Typical,Moderate / High,Moderate / High,Moderate / High
+210,58,175,21,F,18.93877551020408,Normal / Low,Normal / Low,Low,Low,High,Normal,High,Normal / Low,Normal / High,Normal / Low,Severe,Extremely Severe,Severe,Minor Distress,Moderate / High,High,High
+211,64,181,21,M,19.53542321662953,Low,Normal / High,Low,Normal / High,Normal / Low,Normal,Low,Low,Low,Low,Moderate,Normal,Normal,Major Distress,Moderate / Low,Moderate / High,High
+212,45,160,22,F,17.578124999999996,High,High,High,High,Normal / Low,Normal,Normal / High,Normal / Low,Normal / Low,Normal / Low,Normal,Moderate,Normal,Minor Distress,Moderate / Low,Moderate / Low,Moderate / High
+213,80,185,22,M,23.37472607742878,Low,Low,Low,Low,Normal / Low,Normal,High,High,Normal / Low,High,Severe,Extremely Severe,Moderate,Typical,Low,Moderate / Low,Moderate / Low
+214,54,155,21,F,22.476586888657646,Normal / High,High,Normal / High,High,Normal / Low,Normal,Low,Low,Low,Normal / Low,Normal,Normal,Normal,Typical,Moderate / Low,Moderate / Low,Moderate / Low
+215,52,164,22,F,19.333729922665082,Normal / Low,Normal / High,High,High,Normal / High,Normal,Normal / Low,Low,Normal / High,Normal / High,Moderate,Normal,Normal,Typical,Moderate / Low,Moderate / Low,Moderate / High
+216,92,190,22,M,25.48476454293629,Normal / Low,Normal / Low,Normal / Low,Normal / High,Normal / Low,Normal,Low,Normal / Low,Normal / Low,Normal / Low,Normal,Normal,Normal,Typical,Moderate / Low,Moderate / Low,Moderate / High
+217,45,164,21,F,16.731112433075552,High,High,Normal / High,High,Low,High,Normal / High,Normal / High,Normal / High,Low,Normal,Moderate,Normal,Typical,Moderate / Low,Moderate / High,Moderate / High
+218,66,180,23,M,20.37037037037037,Low,Low,Normal / Low,Low,Normal / Low,Normal,High,High,High,High,Severe,Moderate,Moderate,Typical,Moderate / High,Moderate / High,Moderate / High
+219,52,165,23,F,19.100091827364558,Normal / High,Normal / Low,High,Normal / High,Normal / Low,Normal,Normal / Low,Low,Low,Normal / High,Moderate,Moderate,Normal,Typical,Moderate / Low,Moderate / Low,Moderate / High
+220,85,190,22,M,23.545706371191137,Normal / Low,Low,Normal / High,Low,Low,High,Normal / High,Normal / Low,Normal / Low,Normal / Low,Normal,Normal,Normal,Typical,Low,Low,Moderate / Low
+221,65,172,22,F,21.971335857220122,High,Low,High,Normal / Low,Low,Low,Normal / High,Low,Low,Normal / Low,Extremely Severe,Extremely Severe,Moderate,Major Distress,Moderate / High,High,High
+222,76,179,22,M,23.719609250647608,Normal / Low,Normal / Low,High,Low,Low,High,Normal / High,Normal / High,Normal / Low,Normal / Low,Normal,Moderate,Normal,Typical,Moderate / High,Moderate / Low,Moderate / High
+223,73,173,22,F,24.3910588392529,Normal / Low,High,Low,Normal / Low,Low,Normal,Low,Low,Low,Normal / Low,Mild,Moderate,Normal,Typical,Low,Low,Moderate / High
+224,63,186,22,M,18.210197710718,High,High,Normal / High,Normal / High,Low,Normal,Normal / High,Normal / Low,Normal / Low,Normal / Low,Normal,Moderate,Normal,Typical,Low,Low,Low
+225,75,173,22,M,25.05930702662969,Normal / High,High,Low,Normal / Low,Normal / Low,Normal,Normal / High,Normal / High,Normal / Low,Normal / Low,Extremely Severe,Moderate,Moderate,Typical,Moderate / Low,Moderate / Low,Moderate / High
+226,55,170,22,M,19.031141868512112,Normal / Low,Normal / High,Normal / High,High,Normal / Low,Normal,High,Normal / High,Normal / High,Normal / High,Normal,Moderate,Moderate,Typical,Moderate / Low,Moderate / Low,Moderate / Low
+227,53,167,22,F,19.003908350962746,Normal / Low,Normal / High,Low,Normal / Low,Low,Normal,Normal / Low,Low,Low,Low,Normal,Normal,Normal,Typical,Low,Moderate / Low,Moderate / Low
+228,68,176,22,M,21.952479338842977,Normal / Low,Normal / High,High,Low,Low,Normal,Low,Normal / Low,Normal / Low,High,Normal,Normal,Normal,Typical,Low,Low,Moderate / Low
+229,90,176,22,M,29.054752066115704,Low,Low,Normal / High,Normal / High,Normal / High,Normal,High,Normal / High,Normal / High,High,Moderate,Normal,Moderate,Minor Distress,High,Moderate / High,Moderate / High
+230,71,162,22,F,27.053802773967377,High,Low,Normal / Low,High,Normal / High,Normal,Normal / High,Normal / High,Normal / Low,Low,Moderate,Extremely Severe,Moderate,Minor Distress,Moderate / High,High,High
+231,53,170,23,F,18.339100346020764,Normal / High,Low,Normal / Low,Normal / Low,Normal / High,Normal,Normal / High,Normal / Low,Normal / Low,Normal / Low,Normal,Normal,Normal,Typical,Low,Low,Moderate / Low
+232,105,182,22,M,31.69907016060862,Low,Low,Low,Low,Normal / High,Normal,High,High,High,Normal / High,Normal,Mild,Normal,Minor Distress,Moderate / High,Moderate / High,Moderate / High
+233,75,170,24,M,25.95155709342561,Normal / High,Normal / High,Normal / High,Low,Normal / High,Normal,Normal / Low,Normal / Low,Low,High,Mild,Normal,Normal,Minor Distress,Moderate / Low,Moderate / Low,High
+234,82,175,23,M,26.775510204081634,Low,Low,Low,Normal / Low,Normal / Low,Normal,Low,Normal / Low,Low,Low,Mild,Moderate,Normal,Typical,Moderate / High,Moderate / Low,Moderate / High
+235,80,187,20,M,22.877405702193368,Low,Low,Low,Normal / Low,High,Normal,Normal / High,Normal / High,Low,Low,Severe,Severe,Severe,Typical,Moderate / Low,Moderate / Low,Moderate / Low
+236,70,172,21,F,23.661438615467823,High,High,High,High,Low,Normal,Normal / Low,Low,Low,Low,Mild,Normal,Normal,Minor Distress,Moderate / Low,Low,Moderate / High
+237,49,166,21,F,17.78197125852809,Normal / High,Low,Normal / Low,Normal / High,High,Normal,Normal / Low,Normal / Low,Normal / High,Low,Normal,Severe,Normal,Typical,Moderate / Low,Moderate / High,Moderate / High
+238,53,165,22,F,19.467401285583104,Normal / High,Normal / Low,Normal / High,Normal / Low,High,Low,Normal / High,Normal / High,High,Normal / High,Severe,Severe,Mild,Minor Distress,Moderate / High,Moderate / High,Moderate / High
+239,105,202,23,M,25.732771296931674,Normal / High,Normal / High,High,High,Normal / Low,Low,Low,Low,Low,Low,Extremely Severe,Moderate,Normal,Minor Distress,Low,Moderate / Low,Moderate / High
+240,58,174,23,F,19.157088122605362,High,High,High,Normal / High,Low,High,Low,Low,Normal / Low,Low,Normal,Severe,Normal,Typical,Low,Moderate / Low,Moderate / High
+241,67,170,22,M,23.18339100346021,Low,Low,Low,Normal / High,Normal / High,Normal,Normal / High,Normal / High,Low,Normal / Low,Moderate,Moderate,Normal,Typical,Moderate / High,Moderate / High,Moderate / Low
+242,63,185,23,M,18.407596785975162,Normal / Low,Normal / High,Normal / Low,Low,Normal / High,Normal,Normal / High,High,Normal / Low,Normal / High,Normal,Severe,Mild,Typical,Low,Low,Low
+243,62,179,22,F,19.350207546580943,Low,Normal / High,Low,Normal / High,Normal / Low,Normal,Normal / High,High,Normal / High,High,Mild,Extremely Severe,Severe,Typical,Low,Moderate / High,Moderate / Low
+244,50,164,21,F,18.590124925639504,Low,Low,Low,Low,High,Normal,Low,Normal / Low,Normal / Low,Low,Moderate,Severe,Normal,Typical,Moderate / High,Moderate / Low,Moderate / High
+245,71,180,23,M,21.91358024691358,Low,Normal / High,Low,Normal / Low,Low,Normal,Normal / High,Low,Low,Low,Normal,Extremely Severe,Moderate,Typical,Moderate / Low,Moderate / High,Moderate / High
+246,61,180,23,M,18.827160493827158,High,Normal / Low,Normal / Low,Normal / Low,Normal / High,Low,High,High,High,Normal / High,Moderate,Extremely Severe,Moderate,Minor Distress,Moderate / High,Moderate / High,High
+247,75,177,22,M,23.93948099205209,Normal / Low,Normal / Low,Normal / Low,Normal / High,Normal / High,Normal,Normal / High,Low,Normal / High,Normal / High,Moderate,Severe,Moderate,Minor Distress,Moderate / Low,Moderate / Low,Moderate / High
+248,65,179,19,M,20.286507911738084,Normal / High,High,Low,High,High,Normal,Low,Low,Normal / Low,High,Normal,Mild,Normal,Typical,Low,Low,Moderate / High
+249,79,180,22,M,24.382716049382715,Low,Low,Low,Low,High,Low,High,High,Normal / Low,Normal / High,Extremely Severe,Moderate,Normal,Major Distress,Moderate / Low,Moderate / Low,Moderate / High
+250,64,165,22,F,23.507805325987146,Normal / High,Normal / High,Normal / High,High,Normal / High,High,Low,Low,Low,Low,Normal,Normal,Normal,Typical,Low,Low,Moderate / Low
+251,75,182,21,M,22.6421929718633,Low,Normal / High,Normal / Low,Normal / High,Low,Normal,Normal / Low,Low,Low,Low,Normal,Normal,Normal,Minor Distress,Moderate / High,High,Moderate / High
+252,61,170,21,F,21.107266435986162,High,Normal / High,High,Normal / Low,Normal / Low,High,Low,Normal / Low,Normal / Low,Normal / Low,Normal,Normal,Normal,Typical,Moderate / Low,Moderate / Low,Moderate / High
+253,57,168,22,M,20.19557823129252,Normal / Low,Normal / Low,Low,Normal / Low,High,Low,High,Normal / High,Normal / High,High,Extremely Severe,Moderate,Normal,Major Distress,Moderate / Low,Moderate / High,Moderate / High
+254,90,193,21,M,24.161722462347985,Low,Low,Low,Low,Normal / Low,Low,Normal / High,Normal / High,Normal / High,Normal / High,Moderate,Moderate,Normal,Typical,Moderate / Low,Moderate / Low,Moderate / Low
+255,61,174,22,F,20.147971991015986,Low,Normal / Low,Low,Normal / High,High,Normal,Low,Low,Low,Normal / Low,Normal,Moderate,Normal,Typical,Moderate / High,Moderate / Low,Moderate / Low
+256,75,182,39,M,22.6421929718633,Normal / High,Normal / High,High,Normal / Low,Low,High,Low,Low,Normal / High,Low,Normal,Normal,Normal,Typical,Moderate / Low,Moderate / Low,Moderate / Low
+257,49,163,20,F,18.442545824080696,Low,High,Normal / Low,Normal / High,Normal / Low,Normal,Low,Low,Normal / Low,Low,Normal,Extremely Severe,Mild,Typical,Moderate / Low,Moderate / Low,Moderate / High
+258,76,184,18,M,22.448015122873343,Low,Normal / High,Normal / Low,Normal / High,Low,Normal,Normal / High,Normal / High,High,Normal / Low,Normal,Moderate,Normal,Typical,Low,Low,Moderate / Low
+259,48,155,22,F,19.979188345473464,High,Normal / Low,Normal / Low,Normal / Low,High,Normal,High,Normal / Low,High,High,Moderate,Severe,Moderate,Typical,Moderate / High,Moderate / High,Moderate / High
+260,78,183,21,M,23.291229956104985,Normal / Low,Normal / High,High,Normal / High,Normal / High,High,Normal / High,Low,Normal / Low,Normal / Low,Moderate,Normal,Normal,Minor Distress,Moderate / Low,Moderate / High,Moderate / High
+261,70,178,23,M,22.093170054286073,High,High,Normal / Low,High,Normal / Low,Normal,Low,Normal / High,Low,Normal / High,Normal,Normal,Normal,Typical,Moderate / Low,Moderate / Low,Moderate / Low
+262,54,165,22,F,19.834710743801654,Normal / High,Normal / High,Low,Normal / High,High,Normal,Normal / High,Low,Normal / Low,Low,Mild,Extremely Severe,Moderate,Typical,Moderate / High,Moderate / High,High
+263,90,167,26,F,32.2707877657858,Normal / High,Normal / Low,High,Normal / Low,High,Normal,Normal / High,High,High,High,Moderate,Moderate,Moderate,Minor Distress,Moderate / Low,Moderate / High,Moderate / Low
+264,43,160,22,F,16.796874999999996,Low,Normal / High,Normal / Low,Normal / Low,Normal / High,Normal,Normal / High,Low,Normal / High,Low,Normal,Normal,Mild,Typical,High,High,High
+265,56,172,21,F,18.92915089237426,Normal / Low,Normal / Low,Normal / High,Normal / Low,Low,High,Normal / Low,Normal / High,Low,Low,Normal,Normal,Normal,Typical,Low,Low,Moderate / Low
+266,67,160,23,F,26.171874999999996,Normal / Low,Normal / Low,Low,Low,High,Normal,Low,Low,Normal / Low,Low,Normal,Moderate,Mild,Minor Distress,Moderate / High,Moderate / High,High
+267,78,183,21,M,23.291229956104985,Normal / High,High,Normal / High,Normal / Low,Normal / High,High,Low,Normal / High,Low,Low,Normal,Moderate,Normal,Typical,Moderate / High,Moderate / Low,Moderate / High
+268,76,173,22,M,25.393431120318084,Normal / Low,Low,Normal / High,Normal / Low,Normal / Low,Normal,Normal / Low,Normal / High,Normal / High,High,Normal,Severe,Moderate,Typical,Moderate / Low,Low,Moderate / Low
+269,56,163,20,F,21.077195227520797,Normal / Low,Normal / Low,Normal / High,Normal / Low,High,Normal,Normal / High,High,Normal / High,Normal / High,Normal,Moderate,Mild,Minor Distress,Moderate / High,Moderate / High,Moderate / High
+270,49,167,22,M,17.569651116927822,High,Normal / High,Low,Normal / Low,High,Normal,High,High,High,High,Severe,Moderate,Moderate,Minor Distress,Moderate / Low,Moderate / Low,Moderate / High
+271,83,179,24,M,25.90431010268094,Normal / Low,High,Normal / Low,High,Normal / Low,Normal,Low,Low,Normal / Low,Normal / Low,Normal,Normal,Normal,Typical,Moderate / Low,Moderate / Low,Moderate / Low
+272,53,159,22,F,20.964360587002094,Normal / High,High,High,High,Normal / Low,High,Low,Low,Low,Normal / High,Normal,Mild,Normal,Typical,Low,Low,Moderate / High
+273,82,186,24,M,23.702162099664697,Normal / Low,Low,Low,Normal / High,Low,Normal,Low,Normal / Low,Low,Low,Moderate,Moderate,Normal,Typical,Low,Moderate / Low,Moderate / High
+274,69,167,22,M,24.740937287102444,Normal / Low,High,Low,High,High,Low,High,Normal / High,Normal / Low,High,Extremely Severe,Severe,Moderate,Major Distress,Moderate / High,Moderate / Low,Moderate / High
+275,75,181,19,M,22.89307408198773,Normal / Low,Low,Normal / Low,Low,Normal / High,High,High,High,High,Normal / High,Normal,Moderate,Normal,Minor Distress,High,Moderate / Low,Moderate / Low
+276,78,187,20,M,22.305470559638533,Normal / Low,Low,Normal / Low,Normal / Low,Normal / High,Normal,Low,Low,Low,Normal / Low,Normal,Mild,Normal,Typical,Moderate / High,Low,Moderate / High
+277,65,175,22,F,21.224489795918366,Low,Low,Low,Low,High,Normal,Normal / High,Normal / High,Low,Normal / High,Mild,Extremely Severe,Mild,Minor Distress,Moderate / High,Moderate / High,Moderate / High
+278,54,162,22,F,20.576131687242793,Low,High,Normal / Low,High,Normal / High,Normal,Normal / High,Low,Low,Low,Normal,Normal,Normal,Typical,Low,Low,Low
+279,50,175,21,F,16.3265306122449,Low,Low,Normal / Low,High,Normal / Low,Normal,Low,Low,Normal / High,Low,Mild,Mild,Normal,Typical,Moderate / Low,Low,Moderate / High
+280,47,163,21,F,17.68978885166924,Normal / High,High,Normal / High,Normal / Low,Low,Normal,Normal / High,Normal / Low,Normal / Low,Normal / Low,Normal,Mild,Normal,Typical,Moderate / Low,Low,Moderate / Low
+281,65,174,21,F,21.469150482230148,Low,Normal / High,Normal / High,Normal / High,Normal / Low,Normal,Normal / Low,Low,Normal / Low,Low,Normal,Severe,Normal,Typical,Low,Low,Moderate / Low
+282,85,179,22,M,26.528510346119035,Low,Low,Normal / Low,Low,Low,High,Low,High,Normal / Low,High,Normal,Normal,Normal,Typical,Moderate / Low,Moderate / Low,Low
+283,76,170,23,F,26.29757785467128,High,High,High,Normal / High,Normal / High,Low,High,Normal / High,High,High,Severe,Extremely Severe,Mild,Minor Distress,Low,Moderate / Low,Moderate / High
+284,65,170,22,F,22.49134948096886,Normal / Low,High,Normal / Low,Normal / High,Normal / High,Normal,Low,Low,Low,Normal / High,Moderate,Extremely Severe,Moderate,Minor Distress,Moderate / High,Moderate / High,Moderate / Low
+285,92,179,22,M,28.71321119815237,Low,Low,Low,Normal / Low,Normal / High,Normal,Normal / High,Normal / High,Normal / High,Normal / Low,Moderate,Extremely Severe,Normal,Typical,Low,Moderate / Low,Moderate / Low
+286,48,160,21,F,18.749999999999996,Normal / Low,High,Normal / High,Normal / High,Normal / Low,Normal,Normal / High,Normal / Low,Normal / Low,Low,Normal,Moderate,Normal,Typical,Moderate / Low,Moderate / Low,Moderate / Low
+287,55,164,22,F,20.449137418203453,Low,Low,Low,Low,High,Normal,Normal / High,Normal / Low,High,Normal / High,Mild,Mild,Normal,Minor Distress,Moderate / High,Moderate / High,Moderate / High
+288,78,183,22,M,23.291229956104985,Low,Normal / High,Normal / High,Low,Normal / Low,Normal,Normal / Low,Normal / Low,Low,Normal / Low,Mild,Normal,Normal,Typical,Moderate / Low,Low,Moderate / Low
+289,97,184,22,M,28.650756143667294,High,Low,Low,Low,High,Low,Normal / High,High,High,Normal / Low,Extremely Severe,Extremely Severe,Moderate,Major Distress,Moderate / High,Moderate / High,High
+290,73,180,25,M,22.530864197530864,Normal / High,High,Normal / Low,Low,Normal / High,Normal,High,Normal / High,Normal / High,Normal / High,Severe,Moderate,Severe,Typical,Moderate / Low,Moderate / High,High
+291,56,159,31,F,22.151022507021082,Normal / High,Low,High,High,Normal / Low,Normal,Low,Low,Low,Low,Normal,Normal,Normal,Typical,Moderate / Low,Moderate / Low,Low
+292,67,156,21,F,27.531229454306374,Low,Low,Normal / High,High,High,Low,High,Low,Normal / High,Normal / High,Extremely Severe,Moderate,Mild,Minor Distress,High,Moderate / High,High
+293,53,171,21,F,18.125235115078144,High,Normal / Low,Normal / Low,Normal / High,High,Normal,High,High,Normal / High,High,Moderate,Extremely Severe,Moderate,Typical,Moderate / Low,Moderate / Low,Moderate / High
+294,80,187,22,M,22.877405702193368,High,Normal / Low,High,High,Low,Normal,Low,Low,Normal / Low,Low,Normal,Normal,Normal,Typical,Low,Moderate / Low,Moderate / Low
+295,90,184,23,M,26.583175803402646,High,Normal / High,High,Low,Low,High,Normal / High,High,Normal / Low,High,Normal,Mild,Normal,Typical,Low,Low,Low
+296,95,184,21,M,28.060018903591683,Low,Low,Low,Normal / Low,Low,Normal,Low,Normal / Low,Low,Normal / Low,Normal,Severe,Normal,Typical,Moderate / Low,Moderate / Low,Moderate / Low
+297,75,185,22,M,21.913805697589478,Normal / Low,Normal / High,Normal / Low,Low,High,Normal,High,High,High,High,Severe,Extremely Severe,Severe,Typical,Moderate / High,Moderate / High,Moderate / Low
+298,65,183,21,M,19.409358296754156,High,Low,Normal / Low,Low,High,Normal,Normal / Low,Low,Low,Normal / Low,Moderate,Normal,Normal,Major Distress,Moderate / Low,Moderate / High,High
+299,54,170,21,F,18.68512110726644,High,Normal / High,High,Normal / High,Normal / Low,High,Low,Normal / Low,Normal / High,Normal / High,Normal,Normal,Normal,Typical,Low,Low,Moderate / High
+300,63,171,21,M,21.545090797168363,Normal / Low,Low,Normal / High,Normal / High,High,Normal,Low,Normal / High,High,Normal / High,Normal,Normal,Normal,Typical,Moderate / Low,Moderate / Low,Moderate / High
+301,100,178,22,M,31.561671506122963,Low,High,Normal / High,Normal / Low,Low,Normal,Normal / High,Low,Low,Low,Normal,Normal,Normal,Typical,Moderate / Low,Moderate / Low,Moderate / Low
+302,55,169,22,F,19.257028815517668,Low,Low,Low,Low,High,Normal,High,High,High,High,Normal,Normal,Normal,Minor Distress,Moderate / Low,Moderate / High,Moderate / High
+303,52,170,21,F,17.99307958477509,Low,Normal / Low,Normal / High,Low,High,Low,High,High,High,High,Extremely Severe,Extremely Severe,Extremely Severe,Major Distress,High,Moderate / High,High
+304,60,177,22,M,19.15158479364167,Normal / Low,Low,Low,Low,Normal / Low,Normal,Normal / High,Low,Normal / Low,Normal / Low,Severe,Moderate,Normal,Typical,Low,Moderate / High,Moderate / Low
+305,74,178,21,M,23.355636914530994,Normal / Low,Low,Normal / Low,High,High,Low,Normal / High,Normal / High,Normal / Low,High,Extremely Severe,Extremely Severe,Mild,Minor Distress,Moderate / High,Moderate / Low,Moderate / Low
+306,66,172,22,F,22.30935640886966,Normal / Low,Normal / High,High,Normal / Low,Low,High,Low,Normal / Low,Low,Normal / Low,Normal,Normal,Normal,Typical,Low,Low,Moderate / Low
+307,80,182,21,M,24.151672503320853,High,High,Normal / Low,Normal / High,Normal / Low,Normal,High,High,High,Normal / High,Normal,Normal,Normal,Typical,Moderate / Low,Moderate / Low,Moderate / Low
+308,74,180,22,M,22.839506172839506,High,High,High,High,Low,High,Low,Low,Low,Low,Normal,Normal,Normal,Typical,Low,Low,Low
+309,82,193,22,M,22.014013799028163,High,Normal / High,High,High,Low,High,Low,Low,Low,Low,Normal,Normal,Normal,Typical,Low,Low,Moderate / Low
+310,81,178,19,M,25.5649539199596,Low,Normal / Low,High,Normal / Low,Normal / Low,Normal,Low,High,Normal / High,Normal / Low,Normal,Moderate,Normal,Typical,Moderate / Low,Low,Moderate / Low
+311,53,172,19,F,17.915089237425637,Normal / High,Normal / High,Normal / Low,Normal / High,Normal / High,Low,Low,Low,Normal / Low,Low,Severe,Extremely Severe,Mild,Major Distress,Moderate / High,Moderate / Low,Moderate / Low
